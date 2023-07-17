@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sophie Bluel - Architecte d'intérieur</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <!-- <link rel="stylesheet" href="./assets/maquette_accueil.css" /> -->
+        <script type="module" src="./assets/script/Login.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <a href="./index.html">
+                    <img src="./assets/icons/Logo.svg" alt="Logo" />
+                </a>
+                <h1 class="hidden">
+                    Sophie Bluel <span>Architecte d'inteérieur</span>
+                </h1>
+                <nav class="head" aria-label="Site menu">
+                    <ul>
+                        <li>projets</li>
+                        <li>contact</li>
+                        <li>login</li>
+                        <li>
+                            <img
+                                src="./assets/icons/instagram.png"
+                                alt="Instagram"
+                                class="instagram"
+                            />
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h2 class="h2_Login">Log In</h2>
+                <div class="container">
+                    <form class="login-form">
+                        <label for="login_mail">E-mail</label>
+                        <input
+                            type="email"
+                            name="login_mail"
+                            id="login_mail"
+                            required
+                        />
+                        <label for="password">Mot de passe</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            required
+                        />
+                        <input
+                            type="submit"
+                            class="submit"
+                            value="Se connecter"
+                        />
+                        <a href="#" class="password-alert"
+                            >Mot de passe oublié</a
+                        >
+                    </form>
+                </div>
+                `;
+            </main>
+
+            <footer>
+                <nav>
+                    <ul>
+                        <li>Mentions légales</li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>

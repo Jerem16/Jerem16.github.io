@@ -1,0 +1,253 @@
+/***SECTION-SEARCH-FILTER***/
+@media (max-width: 10440px) {
+  .section-search-filter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-top: 109px;
+  }
+
+  .p-h1-margin-t {
+    margin-top: 7.5px;
+  }
+
+  /***---SEARCH-BUTTON---***/
+  /*----corps----*/
+
+  .search-button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    width: 377px;
+    height: 49px;
+    background-color: white;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-radius: 15px;
+    margin: 18px 0px 0px 0px;
+  }
+
+  .search-button:hover {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  /*----input----*/
+
+  input {
+    border: none;
+    outline: none;
+  }
+
+  .input-research {
+    display: block;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 21px;
+    border: 0px solid transparent;
+    padding-left: 24px;
+    padding-right: 0px;
+    width: 195px;
+    background-color: transparent;
+  }
+
+  /*----button----*/
+
+  .location {
+    font-size: 18px;
+    padding: 15.5px 17.5px 15.5px 17.5px;
+    background: #f2f2f2;
+    border: 0px solid red;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  .search {
+    padding: 14.5px 18px 15.5px 16.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    border: 0px solid red;
+    color: #ffffff;
+    background-color: #0065fc;
+  }
+  .desktop {
+    display: block;
+    position: relative;
+    top: 1.5px;
+  }
+  .mobile {
+    display: none;
+    color: #ffffff;
+  }
+
+  /***---FILTER-BUTTON---***/
+
+  .search-filter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 35px;
+    gap: 15px;
+  }
+
+  .search-filter .font-h2,
+  .search-filter .font-filter-button {
+    display: flex;
+    gap: 15px;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 19px 0px 19px;
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+    height: 46.5px;
+    gap: 7.5px;
+  }
+
+  .filter i {
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    font-size: 1.375em;
+  }
+
+  .filter a {
+    position: relative;
+    top: 0.5px;
+    left: 1px;
+    display: block;
+    height: 22px;
+  }
+
+  /***---INFO---***/
+
+  .info {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    height: 51px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .info i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    padding: 6px 10px 7px 8.5px;
+    box-sizing: border-box;
+    font-size: 0.625em;
+  }
+  .info .font-p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .hidden {
+    display: none;
+  }
+  /***--Style-hover-active--***/
+
+  button:hover {
+    cursor: pointer;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  button:active {
+    color: #f2f2f2;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  .location:hover i {
+    color: orange;
+  }
+  .location:hover {
+    background-color: #0065fc;
+  }
+  .location:active i {
+    color: #0065fc;
+  }
+  .filter:nth-child(1) i {
+    position: relative;
+    left: -1px;
+    top: 1px;
+    font-size: 1.188em;
+  }
+
+  .filter:nth-child(2) i {
+    position: relative;
+    left: 2px;
+    top: -0.5px;
+  }
+
+  .filter:nth-child(3) i {
+    position: relative;
+    left: -2px;
+    top: -0.25px;
+  }
+
+  .filter:nth-child(4) i {
+    position: relative;
+    left: 1px;
+    top: 0.25px;
+    font-size: 1.26em;
+  }
+
+  .filter:hover {
+    background-color: #deebff;
+  }
+
+  .filter:active {
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  .filter:active a {
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  .filter:nth-child(1):active {
+    border: 2px solid yellowgreen;
+    background-color: rgb(218, 255, 145);
+  }
+
+  .filter:nth-child(1):active i {
+    color: green;
+  }
+
+  .filter:nth-child(2):active {
+    border: 2px solid #0065fc;
+  }
+
+  .filter:nth-child(3):active {
+    border: 2px solid red;
+    background-color: rgb(250, 189, 189);
+  }
+
+  .filter:nth-child(3):active i {
+    color: red;
+  }
+
+  .filter:nth-child(4):active {
+    border: 2px solid orange;
+    background-color: rgb(255, 226, 173);
+  }
+
+  .filter:nth-child(4):active i {
+    color: darkorange;
+  }
+}

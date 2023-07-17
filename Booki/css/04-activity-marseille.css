@@ -1,0 +1,55 @@
+/***SECTION-ACTIVITY-IN-MARSEILLE***/
+
+.activity-in-marseille {
+  width: calc(100% - 60px);
+  height: auto;
+  padding: 30px;
+  margin-top: 36px;
+}
+
+.activity-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  gap: 30px;
+  margin-top: 35px;
+}
+
+.activity-column {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-items: center;
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+}
+
+.activity-in-marseille .card {
+  padding: 0px;
+}
+
+.activity-column h2 {
+  display: block;
+  align-self: normal;
+  margin: 19px 19px;
+}
+
+.activity-column .card-txt {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: calc(100% - 0px);
+  height: auto;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.activity-in-marseille img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 297.5px;
+  height: 26.32vw;
+  max-height: 380px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: white;
+}

@@ -1,0 +1,40 @@
+/***HEADER**/
+
+.full-heading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: calc(100% + 0px);
+  height: 79px;
+}
+
+.logo {
+  width: 61.09px;
+  height: 19px;
+  padding: 30px;
+}
+
+.padding-l-r-comp-margin-a {
+  padding: 0px 9.11px 0px 9.11px;
+}
+
+.nav-a {
+  display: inline-block;
+  margin: 0px 33px 0px 33px;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 14px 0px 14px 0px;
+  text-align: center;
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.nav-a:hover {
+  border-top: 3px solid #0065fc;
+  color: #0065fc;
+}

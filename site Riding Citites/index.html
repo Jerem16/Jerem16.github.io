@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=Inter:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Riding Cities</title>
+  </head>
+  <body>
+    <!--  
+          !!Erreurs dans le fichier CSS */
+          /*Doublon : le selecteur "h2", est utilisé sur "la ligne 28" et "74"*/
+          /*Famille de polices "génériques" manquante (manque-> sans-serif;) ligne 100" et "153"*/
+    -->
+    <!-- 
+          *Info : Barre oblique(de fin) [ / ] sur les balises orphelines, 
+          [n'ont aucun effet] et [interagissent mal] 
+          avec les valeurs d'attributs sans guillemets;
+    -->
+
+    <div class="container">
+      <!--
+          en-tête!                                                  
+      -->
+
+      <header>
+        <img src="images/header.png" alt="skateboard sur un sol goudronné" />
+        <div class="headerTextContent">
+          <h1>RIDING CITIES</h1>
+        </div>
+      </header>
+
+      <main>
+        <!--
+          Section n°1 La Mission de l'Assos                        
+        -->
+
+        <section>
+          <h2>La mission de l'asso</h2>
+
+          <div class="directionRow">
+            <article>
+              <h3>Promouvoir</h3>
+              <p>
+                L'asso regroupe des passionnés de glisse et plus
+                particulièrement de skateboard qui œuvrent pour la promotion de
+                ce sport au niveau régional.
+              </p>
+            </article>
+
+            <article>
+              <h3>Transmettre</h3>
+              <p>
+                Nous proposons des cours pour enfants, ados et adultes. Nous
+                intervenons également dans les écoles pour faire découvrir le
+                skate aux plus jeunes.
+              </p>
+            </article>
+
+            <article>
+              <h3>Entraîner</h3>
+              <p>
+                Nous accompagnons nos membres sur les compétitions en les
+                préparant physiquement à donner le meilleur d'eux-mêmes.
+              </p>
+            </article>
+
+            <article>
+              <h3>Fédérer</h3>
+              <p>
+                L'asso organise tout au long de l'année des évènements autour du
+                skate pour réunir toujours plus de monde autour de cette
+                pratique.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!--
+          Section n°2 Les Membres Fondateurs         
+          !! les "titres (h3) ne correspondent pas à ceux de la maquette"...
+          Dans le CSS=>
+          *       Créer une class ex:(.nameFoundersMembers h3{})
+          Exemple :
+
+          .nameFoundersMembers h3 {
+             	font-weight:600; 
+             	font-size:20px; 
+             	line-height:22px;   
+          }
+          Dans le HTML=>
+          *       Ajouter la class "nameFoundersMembers" à la <div class="directionRow"> 
+          (section=> "membres fondateurs").
+        -->
+
+        <section class="sectionLinearGradientBackground whiteContentSection">
+          <h2>Les membres fondateurs</h2>
+
+          <div class="directionRow">
+            <article class="directionColumn">
+              <img
+                src="images/soraya.png"
+                alt="Soraya Longboard"
+                width="194"
+                height="262"
+              />
+              <h3>Soraya</h3>
+              <p>Longboard</p>
+            </article>
+
+            <article class="directionColumn">
+              <img
+                src="images/marc.png"
+                alt="Marc Street"
+                width="194"
+                height="262"
+              />
+              <h3>Marc</h3>
+              <p>Street</p>
+            </article>
+
+            <article class="directionColumn">
+              <img
+                src="images/pedro.png"
+                alt="Pedro Pool"
+                width="194"
+                height="262"
+              />
+              <h3>Pedro</h3>
+              <p>Pool</p>
+            </article>
+          </div>
+        </section>
+
+        <!--
+          Section Boutons                                          
+        -->
+
+        <section>
+          <h2>Découvrez nos cours !</h2>
+
+          <div class="directionRow directionColumn">
+            <a
+              class="button buttonMainColor buttonRounded buttonHighlight"
+              href="documents/planning-adultes.pdf"
+              >Télécharger le planning de cours pour adultes</a
+            >
+            <a
+              class="button buttonSecondColor buttonRounded buttonHighlight"
+              href="documents/planning-enfants.pdf"
+              >Télécharger le planning de cours pour enfants</a
+            >
+          </div>
+        </section>
+      </main>
+      <!--
+          ? Créer un footer ?
+          ? Suggestion : plans de site, contact, Map, itinéraire, ré@lisation Webonzaï, ect...
+      -->
+    </div>
+  </body>
+</html>

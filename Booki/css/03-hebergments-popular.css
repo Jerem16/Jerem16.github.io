@@ -1,0 +1,136 @@
+/***SECTION-HEBERGEMENTS-AND-POPULAIRES***/
+
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+  background-color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 32px 30px 30px 30px;
+  box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+  width: 65%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hebergements-cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.grid-hebergements {
+  width: calc(100% - 10px);
+  height: 197.25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 114px 85px;
+}
+
+.hebergements img {
+  width: 100%;
+  height: 114px;
+  border-radius: 17.5px 17.5px 0px 0px;
+}
+
+.hebergements-cards .card-content {
+  height: 83.25px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-radius: 0px 0px 17.5px 17.5px;
+  margin: 0;
+}
+
+.hebergements-cards .card-title {
+  margin-top: 9px;
+}
+
+.hebergements-cards .card-subtitle {
+  margin-top: 8px;
+  margin-bottom: 5.35px;
+}
+
+.hebergements-cards .card-rating i {
+  letter-spacing: -1.55px;
+  margin-left: 0px;
+  font-size: 0.79em;
+}
+/****** Populaires ***********/
+.populaires {
+  width: 32%;
+}
+
+.populaires section {
+  padding-bottom: 33.5px;
+}
+
+.populaires-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.populaires-title i {
+  font-size: 18px;
+}
+.populaires-cards .card {
+  display: flex;
+  margin-top: 30px;
+}
+
+.populaires-cards img {
+  width: 33%;
+  height: 134px;
+  border-top-left-radius: 17.5px;
+  border-bottom-left-radius: 17.5px;
+}
+
+.populaires-cards .card-content {
+  width: 67%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+
+.populaires-cards .card-subtitle {
+  margin: 0;
+}
+
+.populaires-cards .card-rating {
+  margin-bottom: 1px;
+  position: relative;
+  left: -1px;
+}
+.populaires-cards .card-rating i {
+  letter-spacing: -4px;
+}
+
+.auberge {
+  display: inline;
+}
+.hotel {
+  display: none;
+}
+
+/******---:hover---******/
+
+.card-txt {
+  cursor: pointer;
+}
