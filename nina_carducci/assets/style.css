@@ -60,8 +60,10 @@ body {
     font-display: swap;
 }
 .top-header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+    max-width: 1920px;
     z-index: 1000;
     justify-content: space-between;
     padding-inline: 100px;
@@ -92,19 +94,16 @@ body {
 }
 .carousel-inner .carousel-item {
     width: 100%;
-    height: 732px;
-    background-size: cover;
-    background-position: center;
+    max-height: 888px;
+    /* height: 50vw; */
+    margin-top: 100px;
 }
-/* #image1 {
-    background-image: url("./images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp");
+.carousel-item > img {
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    max-height: 100%;
 }
-#image2 {
-    background-image: url("./images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp");
-}
-#image3 {
-    background-image: url("./images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp");
-} */
 #about {
     background-color: #f6d2b8;
 }
@@ -165,21 +164,30 @@ body {
     flex-wrap: wrap;
     margin: auto;
     padding: 20px 60px 0;
-
-    width: 76.20%;
+    /* min-height: 100vh; */
+    width: 76.2%;
     box-sizing: border-box;
 }
+
 .gallery-item {
     width: 33%;
     height: 450px;
     object-fit: cover;
     overflow: hidden;
     padding: 0.5em;
+    min-width: 33%;
+    min-height: 33%;
+    width: 30vw;
+    height: 30vw;
+    max-width: 425px;
+    max-height: 425px;
 }
 .gallery-item img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    min-width: 33%;
+    min-height: 33%;
+    width: 100vw;
+    height: 100vw;
     max-width: 425px;
     max-height: 425px;
     border: 1px solid #000;
@@ -269,6 +277,12 @@ input[type="submit"] {
 footer {
     padding: 20px 120px;
 }
+@media all and (max-width: 1880px) {
+    .gallery {
+        padding: 20px 20px 0;
+        width: 100%;
+    }
+}
 @media all and (max-width: 1180px) {
     .picture {
         flex: 2;
@@ -336,7 +350,30 @@ footer {
         right: 0;
     }
 }
+
 @media all and (max-width: 650px) {
+    .carousel-inner .carousel-item {
+        width: 100%;
+        /* height: 100%; */
+        margin-top: 150px;
+    }
+    .gallery {
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 20px 5px 0;
+        /* min-height: 100vh; */
+    }
+
+    .gallery-item {
+        min-width: 425px;
+        min-height: 425px;
+        width: 96vw;
+        height: 96vw;
+        max-width: 96vw;
+        max-height: 96vw;
+    }
+
     .top-header {
         flex-direction: column;
         padding-inline: 0;
@@ -382,4 +419,41 @@ footer {
         width: 80%;
     }
 }
-
+@media all and (max-width: 475px) {
+    .gallery-item {
+        min-width: 360px;
+        min-height: 360px;
+        width: 96vw;
+        height: 96vw;
+    }
+    .quote {
+        width: 70%;
+        margin: auto;
+        padding-block: 3em;
+    }
+    .quote__text {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+    .quote__author {
+        font-weight: 800;
+        font-size: 22px;
+    }
+}
+@media all and (max-width: 397px) {
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: 100%;
+        margin-top: 175px;
+    }
+}
+@media all and (max-width: 370px) {
+    .gallery-item {
+        min-width: 310px;
+        min-height: 310px;
+    }
+    .gallery-item img {
+        min-width: 310px;
+        min-height: 310px;
+    }
+}
