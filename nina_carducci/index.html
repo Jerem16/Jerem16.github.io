@@ -1,45 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
     <head>
-        <!-- Définit l'encodage des caractères utilisé pour le document -->
         <meta charset="UTF-8" />
-
-        <!-- Indique à Internet Explorer d'utiliser la version la plus récente du moteur de rendu -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-        <!-- Spécifie la vue de la page sur les appareils mobiles -->
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-        <!-- Titre de la page affiché dans l'onglet du navigateur -->
         <title>
             Nina Carducci - Photographe portraits &amp; événements Paris ||
             Bordeaux
         </title>
-
-        <!-- Icône affichée dans l'onglet du navigateur -->
         <link rel="icon" href="./assets/images/instagram.webp" sizes="20x20" />
-
-        <!-- Description de la page utilisée par les moteurs de recherche -->
         <meta
             name="description"
             content="Nina Carducci, professionnelle de la photographie. Opère sur Paris et Bordeaux. Spécialisée dans les: photo de mariage, photo de portrait, la photo entreprise et la photographie de concert ainsi que d'un service de retouche photo et de photoservice."
         />
-
-        <!-- Nom de l'auteur du document -->
         <meta name="author" content="Nina Carducci" />
-
-        <!-- Indique aux robots d'indexer et de suivre la page -->
         <meta name="robots" content="index, follow" />
-
-        <!-- Feuilles de styles utilisées pour la mise en forme -->
         <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
         <link rel="stylesheet" href="./assets/style.css" />
-
-        <!-- Préconnecte aux services Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <!-- Chargement asynchrone des polices Google Fonts utilisées sur la page -->
         <link
             rel="preload"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -52,14 +31,10 @@
             as="style"
             onload='this.onload=null,this.rel="stylesheet"'
         />
-
-        <!-- Lien canonique indiquant la version préférée de la page (utile pour le référencement) -->
         <link
             rel="canonical"
             href="https://jerem16.github.io/nina_carducci/index.html"
         />
-
-        <!-- Balises Open Graph pour les réseaux sociaux -->
         <meta
             property="og:title"
             content="Nina Carducci - Photographe portraits événements Paris || Bordeaux"
@@ -77,8 +52,6 @@
             content="https://jerem16.github.io/nina_carducci/index.html"
         />
         <meta property="og:type" content="website" />
-
-        <!-- Balises Twitter Cards pour une meilleure intégration sur Twitter -->
         <meta
             name="twitter:title"
             content="Nina Carducci - Photographe mariage portraits événements Paris || Bordeaux"
@@ -92,8 +65,6 @@
             content="https://jerem16.github.io/nina_carducci/assets/images/twitter_image.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
-
-        <!-- Balise JSON-LD pour définir les informations structurées de l'entreprise (LocalBusiness) -->
         <script type="application/ld+json">
             {
                 "@context": "http://schema.org/",
@@ -128,20 +99,17 @@
                 "url": "https://jerem16.github.io/nina_carducci/index.html"
             }
         </script>
-
-        <!-- Google tag (gtag.js) -->
         <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-QP7H4KR7V6"
         ></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
-            gtag("js", new Date());
-
-            gtag("config", "G-QP7H4KR7V6");
+            (window.dataLayer = window.dataLayer || []),
+                gtag("js", new Date()),
+                gtag("config", "G-QP7H4KR7V6");
         </script>
     </head>
     <body>
@@ -160,11 +128,12 @@
                                 href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
                                 target="_blank"
                                 rel="noopener"
+                                aria-label="Lien vers Instagram Nina Carducci"
                                 ><img
                                     src="./assets/images/instagram.webp"
                                     width="20"
                                     height="20"
-                                    alt="Icône Instagram"
+                                    alt="icon instagram"
                             /></a>
                         </li>
                     </ul>
@@ -249,6 +218,7 @@
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev"
+                        aria-label="Précédent"
                     >
                         <span
                             class="carousel-control-prev-icon"
@@ -260,6 +230,7 @@
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="next"
+                        aria-label="Suivant"
                     >
                         <span
                             class="carousel-control-next-icon"

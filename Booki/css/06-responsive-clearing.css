@@ -659,11 +659,14 @@
 }
 /***??---Footer---***/
 @media screen and (max-width: 475px) {
-  .footer-row {
-    min-width: 200vw;
+  footer {
+    min-width: 100%;
     position: relative;
-    left: calc(-50vw + 0px);
-    margin-left: 50vw;
+    left: -10px;
+  }
+  .footer-row {
+    min-width: 100%;
+    position: relative;
   }
 
   .footer-col {
