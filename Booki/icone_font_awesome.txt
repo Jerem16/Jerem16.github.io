@@ -1,0 +1,16 @@
+<i class="fa-solid fa-money-bill-wave"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-dog"></i>
+<i class="fa-solid fa-info"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-chart-line"></i>
+<i class="fa-solid fa-person"></i>
+<i class="fa-solid fa-fire"></i>
+<i class="fa-sharp fa-solid fa-location-dot"></i>
+
+
+
+
+#0065fc;    rgb(0, 101, 252)
+#f2f2f2;    rgb(242, 242, 242);
+#deebff;    rgb(222, 235, 255);

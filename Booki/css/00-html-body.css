@@ -1,5 +1,12 @@
 /*--Doc_type_CSS--*/
 /****** General ***********/
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+}
+
 * {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -26,11 +33,7 @@ body {
   box-sizing: border-box;
 }
 
-:root {
-  --main-color: #0065fc;
-  --main-bg-color: #f2f2f2;
-  --filter-bg-color: #deebff;
-}
+
 
 .fa-solid {
   color: var(--main-color);
@@ -65,7 +68,6 @@ em {
 /*--Général--*/
 
 .font-h1 {
-  /* font-size: 22px; */
   font-weight: 700;
   font-size: 1.375em;
   line-height: 26px;
@@ -74,28 +76,24 @@ em {
 }
 
 .font-h2 {
-  /* font-size: 18px; */
   font-weight: 700;
   font-size: 1.125em;
   line-height: 21px;
 }
 
 .nav-a {
-  /* font-size: 16px; */ /*lien de navigation*/
   line-height: 19px;
   font-size: 1em;
   font-weight: 400;
 }
 
 .font-filter-button {
-  /* font-size: 17px; */ /*Boutons filtres*/
   font-weight: 700;
   font-size: 1.063em;
   line-height: 20px;
 }
 
 .font-p {
-  /* font-size: 16px; */ /*paragraphes*/
   font-weight: 400;
   font-size: 1em;
   line-height: 19px;
@@ -132,4 +130,3 @@ em {
   object-fit: cover;
 }
 /***Fin***/
-

@@ -52,8 +52,12 @@
     padding-right: 0px;
     width: 195px;
     background-color: transparent;
+    font-family: "Raleway", sans-serif;
   }
-
+  .input-research::placeholder {
+    color: black;
+    opacity: 1;
+  }
   /*----button----*/
 
   .location {
