@@ -458,7 +458,7 @@
         justify-content: flex-start;
         align-items: center;
         width: calc(43.5% - 25px);
-        max-width: 162.5px;
+        max-width: 125px;
     }
     .filter:nth-child(4) {
         align-self: center;
@@ -692,7 +692,7 @@
         justify-content: flex-start;
         align-items: center;
         width: calc(43.5% - 30px);
-        max-width: 162.5px;
+        max-width: 125px;
     }
 }
 
