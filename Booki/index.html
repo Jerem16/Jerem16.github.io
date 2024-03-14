@@ -17,16 +17,14 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="./css/000_normalize.css" />
-        <link rel="stylesheet" href="./css/00-html-body.css" />
+        <link rel="stylesheet" href="./css/00-general.css" />
         <link rel="stylesheet" href="./css/01-header.css" />
         <link rel="stylesheet" href="./css/02-section-search-filter.css" />
         <link rel="stylesheet" href="./css/03-hebergments-popular.css" />
         <link rel="stylesheet" href="./css/04-activity-marseille.css" />
         <link rel="stylesheet" href="./css/05-footer.css" />
-        <link rel="stylesheet" href="./css/06-responsive-clearing.css" />
-        <!-- POUR VISUALISER LE RENDU MAQUETTE EN TRANSPARENCE COMMENTER OU DECOMMENTER LE CODE CI DESSOUS VALABLE A  1440 1024 375 -->
-        <link rel="stylesheet" href="./css/style.css" />
+        <!-- POUR VISUALISER LE RENDU MAQUETTE EN TRANSPARENCE, DÉCOMMENTEZ LE CODE CI-DESSOUS, VALABLE POUR UNE RÉSOLUTION DE 1440  1024  375 -->
+        <!-- <link rel="stylesheet" href="./css/calque-maquette.css" /> -->
     </head>
 
     <body>
@@ -44,8 +42,8 @@
                         "
                         alt="logo-Booki"
                 /></a>
-                <nav class="padding-l-r-comp-margin-a">
-                    <a class="nav-a active" href="#hebergements"
+                <nav class="main-nav">
+                    <a class="nav-a active" href="#accommodations"
                         >Hébergements</a
                     >
                     <a class="nav-a" href="#activity">Activités</a>
@@ -56,6 +54,7 @@
 
             <main>
                 <!-- SEARCH-SECTION -->
+
                 <section class="section-search-filter">
                     <h1 class="font-h1">
                         Trouvez votre hébergement pour des vacances de rêve
@@ -151,22 +150,22 @@
                     </div>
                 </section>
 
-                <!-- SECTION-HEBERGEMENTS-AND-POPULAIRES -->
+                <!-- SECTION-accommodations-and-popular -->
 
-                <div class="hebergements-and-populaires">
-                    <!-- SECTION-HEBERGEMENTS -->
-                    <section class="hebergements" id="hebergements">
+                <div class="accommodations-and-popular">
+                    <!-- SECTION-accommodations -->
+                    <section class="accommodations" id="accommodations">
                         <h1 class="font-h1">Hébergements à Marseille</h1>
 
-                        <div class="hebergements-cards">
-                            <article class="grid-hebergements card">
+                        <div class="accommodations-cards">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/fred-kleber.jpg"
+                                    src="images/accommodations/fred-kleber.jpg"
                                     alt="Hôtel du port"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Hôtel du port
                                         </h2>
                                         <p class="card-subtitle">
@@ -204,14 +203,14 @@
                                 </div>
                             </article>
 
-                            <article class="grid-hebergements card">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/febrian-zakaria.jpg"
+                                    src="images/accommodations/febrian-zakaria.jpg"
                                     alt="Hôtel Chez Amina"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Hôtel Chez Amina
                                         </h2>
                                         <p class="card-subtitle">
@@ -249,14 +248,14 @@
                                 </div>
                             </article>
 
-                            <article class="grid-hebergements card">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/reisetopia.jpg"
+                                    src="images/accommodations/reisetopia.jpg"
                                     alt="Hôtel Les mouettes"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Hôtel Les mouettes
                                         </h2>
                                         <p class="card-subtitle">
@@ -294,14 +293,14 @@
                                 </div>
                             </article>
 
-                            <article class="grid-hebergements card">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/annie-spratt.jpg"
+                                    src="images/accommodations/annie-spratt.jpg"
                                     alt="Hôtel de la mer"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Hôtel de la mer
                                         </h2>
                                         <p class="card-subtitle">
@@ -339,14 +338,14 @@
                                 </div>
                             </article>
 
-                            <article class="grid-hebergements card">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/marcus-loke.jpg"
+                                    src="images/accommodations/marcus-loke.jpg"
                                     alt="Auberge La Canebière"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Auberge La Canebière
                                         </h2>
                                         <p class="card-subtitle">
@@ -384,14 +383,14 @@
                                 </div>
                             </article>
 
-                            <article class="grid-hebergements card">
+                            <article class="grid-accommodations card">
                                 <img
-                                    src="images/hebergements/nicate-lee.jpg"
+                                    src="images/accommodations/nicate-lee.jpg"
                                     alt="Auberge Le Panier"
                                 />
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h2 class="card-title">
+                                        <h2 class="card-title text-overflow">
                                             Auberge Le Panier
                                         </h2>
                                         <p class="card-subtitle">
@@ -429,13 +428,14 @@
                                 </div>
                             </article>
                         </div>
+
                         <a class="font-h2" href="">Afficher plus</a>
                     </section>
-
-                    <!-- SECTION-ASIDE-POPULAIRES -->
-                    <aside class="populaires">
+                    <!-- <div class="empty"></div> -->
+                    <!-- SECTION-ASIDE-popular -->
+                    <aside class="popular">
                         <section>
-                            <div class="populaires-title">
+                            <div class="popular-title">
                                 <h2 class="font-h1">Les plus populaires</h2>
                                 <i
                                     class="fa-solid fa-chart-line"
@@ -443,17 +443,18 @@
                                 ></i>
                             </div>
 
-                            <div class="populaires-cards">
+                            <div class="popular-group-cards">
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/emile-guillemot.jpg"
+                                        src="./images/accommodations/emile-guillemot.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit"
                                     />
                                     <div class="card-content">
                                         <div class="card-txt">
                                             <h3 class="card-title">
                                                 <span class="auberge"
-                                                    >Auberge la Canebière</span
+                                                    >Hôtel Le soleil du
+                                                    matin</span
                                                 ><span class="hotel"
                                                     >Hôtel Le soleil du
                                                     matin</span
@@ -504,7 +505,7 @@
 
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/aw-creative.jpg"
+                                        src="./images/accommodations/aw-creative.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit"
                                     />
                                     <div class="card-content">
@@ -550,7 +551,7 @@
 
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/febrian-zakaria2.jpg"
+                                        src="./images/accommodations/febrian-zakaria2.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit"
                                     />
                                     <div class="card-content">
@@ -600,51 +601,50 @@
                 <!-- ACTIVITY-IN-MARSEILLE -->
                 <section class="activity-in-marseille">
                     <h1 class="font-h1" id="activity">Activités à Marseille</h1>
-
-                    <div class="activity-cards">
-                        <article class="activity-column card">
+                    <div class="full-row_100">
+                        <figure class="activity-column card">
                             <img
                                 src="images/activites/reno-laithienne.jpg"
-                                alt=""
+                                alt="Vieux-Port"
                             />
-                            <div class="card-txt">
+                            <figcaption class="card-txt">
                                 <h2 class="card-title">Vieux-Port</h2>
-                            </div>
-                        </article>
+                            </figcaption>
+                        </figure>
 
-                        <article class="activity-column card">
+                        <figure class="activity-column card">
                             <img
                                 src="images/activites/paul-hermann.jpg"
                                 alt="Fort de Pomègues"
                             />
-                            <div class="card-txt">
+                            <figcaption class="card-txt">
                                 <h2 class="card-title">Fort de Pomègues</h2>
-                            </div>
-                        </article>
+                            </figcaption>
+                        </figure>
 
-                        <article class="activity-column card">
+                        <figure class="activity-column card">
                             <img
                                 src="images/activites/kilyan-sockalingum.jpg"
                                 alt="Parc national des Calanques"
                             />
-                            <div class="card-txt">
+                            <figcaption class="card-txt">
                                 <h2 class="card-title">
                                     Parc national des Calanques
                                 </h2>
-                            </div>
-                        </article>
+                            </figcaption>
+                        </figure>
 
-                        <article class="activity-column card">
+                        <figure class="activity-column card">
                             <img
                                 src="images/activites/florian-wehde.jpg"
                                 alt="Notre-Dame-de-la-Garde"
                             />
-                            <div class="card-txt">
+                            <figcaption class="card-txt">
                                 <h2 class="card-title">
                                     Notre-Dame-de-la-Garde
                                 </h2>
-                            </div>
-                        </article>
+                            </figcaption>
+                        </figure>
                     </div>
                 </section>
             </main>

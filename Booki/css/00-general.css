@@ -1,0 +1,302 @@
+/* Normalize CSS */
+button,
+hr,
+input {
+    text-overflow: ellipsis; /* ou 'clip' selon vos besoins */
+}
+
+progress,
+sub,
+sup {
+    vertical-align: baseline;
+}
+
+[type="checkbox"],
+[type="radio"],
+legend {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body,
+figure {
+    margin: 0;
+}
+
+details,
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, sans-serif;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+    -webkit-appearance: button;
+}
+
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+    outline: ButtonText dotted 1px;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    white-space: normal;
+}
+
+textarea {
+    text-overflow: ellipsis; /* ou 'clip' selon vos besoins */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+summary {
+    display: list-item;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+/*? General Css */
+:root {
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
+    --global-margin: 50px;
+    --global-margin_x2: 100px;
+}
+
+section {
+    width: 100%;
+    max-width: 1340px;
+}
+*,
+.input-research {
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+}
+*,
+.search,
+em {
+    font-style: normal;
+}
+.card,
+.search-button,
+body {
+    background-color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.main-container {
+    max-width: calc(1440px - 100px);
+    margin: 0 50px;
+}
+.main-container,
+section {
+    position: relative;
+    width: 100%;
+}
+.nav-a,
+.search {
+    text-align: center;
+}
+.card,
+.grid-accommodations,
+button:hover {
+    cursor: pointer;
+}
+.fa-solid {
+    color: var(--main-color);
+}
+.black,
+a {
+    color: #000;
+    text-decoration: none;
+}
+.neutralStar {
+    color: var(--main-bg-color);
+}
+.font-p,
+strong {
+    font-weight: 400;
+}
+.card-title,
+.font-h1,
+.footer-col .font-h2,
+figure {
+    margin: 0;
+}
+.card-title,
+.font-filter-button,
+.font-h1,
+.font-h2 {
+    font-weight: 700;
+}
+.font-h1 {
+    font-size: 1.375em;
+    line-height: 26px;
+    letter-spacing: -0.05px;
+}
+.font-h2 {
+    font-size: 1.125em;
+    line-height: 21px;
+}
+.font-filter-button {
+    font-size: 1.063em;
+    line-height: 20px;
+}
+.card-title,
+.font-p {
+    font-size: 1em;
+    line-height: 19px;
+}
+.card-subtitle {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 16px;
+    margin: 8px 0;
+}
+.euro {
+    font-weight: 600;
+}
+.card {
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+.card:hover {
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.25));
+}
+.filter:hover {
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.1));
+}
+a:hover {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: calc(100vw - 10.667vw);
+        /*TODO : calc(100vw - 10.667vw) = 100% -40px + margin 0 auto = centrage */
+        margin: 0 auto;
+    }
+    footer {
+        background-color: var(--main-bg-color);
+    }
+}
